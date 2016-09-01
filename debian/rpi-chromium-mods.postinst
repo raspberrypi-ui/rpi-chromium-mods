@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+ln -sf /usr/bin/chromium-browser /etc/alternatives/x-www-browser
+
+#DEBHELPER#
