@@ -36,6 +36,29 @@
 				},
 				"path":"cjpalhdlnbpafiamejdnhcphjbkeiagm\\0.0",
 				"state":1
+			},
+			"aleakchihdccplidncghkekgioiakgal" : {
+				"location":1,
+				"manifest": {
+                    "content_scripts": [ {
+                        "all_frames": true,
+                        "js": [ "src/inject/inject.js", "src/inject/content_script.js" ],
+                        "matches": [ "*://*.youtube.com/*" ],
+                        "run_at": "document_start"
+                    } ],
+                    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxpuYJpBArlJinXxN4oxx4UuFNreRTNO5Cl3TNF5FtDmgNLflbtYyC2nC5eZGxpNibzauHmGTD8ekFCfNZhHFpUEIZWd9AHI7TZdhu6gPxaK1lPEMukVEewFs2ovaEkjZbe3gy3v0eUDnADUkiaex7XeAWR6mJLzmcUaPFgzFRsDkozsE9tXLNN6oEYuWHN/yRsM1RYo7PYPulutHF8POL/8vDSyWHx/W9YDTnbv+2SBJZO7Dxi1/PbutasUag+/jma0X1nGhrEufr67NMvtpjPWSISWkIwxPR8u7EVyrKTSXs6U7jCbhKedhomeu9E/xZ1Er0dGWYWnhpdo0GNvblwIDAQAB",
+					"name":"h264ify",
+                    "permissions": [ "storage" ],
+					"update_url":"https://clients2.google.com/service/update2/crx",
+					"version":"0.0"
+				},
+				"granted_permissions": {
+					"api": [ "storage" ],
+					"manifest_permissions": [],
+					"scriptable_host": ["*://*.youtube.com/*"]
+				},
+				"path":"aleakchihdccplidncghkekgioiakgal\\0.0",
+				"state":1
 			}
 	    },
 		"theme": {
