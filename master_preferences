@@ -102,6 +102,11 @@
 	},
 	"search":{
 	    "suggest_enabled":false
+	},
+	"profile":{
+	    "default_content_setting_values":{
+	        "plugins":2
+	    }
 	}
 }
 
