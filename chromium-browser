@@ -196,12 +196,11 @@ if [ $want_touch_pinch -eq 1 ] ; then
 fi
 
 if grep -q "^Hardware\s*:\s*BCM2708" /proc/cpuinfo; then
-  CHROMIUM_FLAGS="$CHROMIUM_FLAGS --disable-quic --enable-fast-unload --enable-tcp-fast-open"
   CHROMIUM_FLAGS=$(echo $CHROMIUM_FLAGS | sed -e 's#--ppapi-flash\S*##g')
 fi
 
 if grep -q "^Hardware\s*:\s*BCM2709" /proc/cpuinfo; then
-  CHROMIUM_FLAGS="$CHROMIUM_FLAGS --disable-quic --enable-fast-unload --enable-tcp-fast-open --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0"
+  CHROMIUM_FLAGS="$CHROMIUM_FLAGS --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0"
 fi
 
 if [ $want_debug -eq 1 ] ; then

@@ -1,3 +1,4 @@
 master_preferences usr/lib/chromium-browser/
 chromium-browser usr/bin/
 libpepflashplayer.so usr/lib/chromium-browser/
+00-rpi-vars etc/chromium-browser/customizations/
