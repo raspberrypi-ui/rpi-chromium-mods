@@ -2,6 +2,6 @@
 
 set -e
 
-ln -sf /usr/bin/chromium-browser /etc/alternatives/x-www-browser
+update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 90
 
 #DEBHELPER#

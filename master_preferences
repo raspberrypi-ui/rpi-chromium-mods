@@ -107,12 +107,7 @@
 	    "default_content_setting_values":{
 	        "plugins":2
 	    }
-	},
-	"first_run_tabs": [
-		"http://new_tab_page",
-		"http://welcome_page",
-	    "file:///usr/lib/chromium-browser/Flash.htm"
-	]
+	}
 }
 
 
