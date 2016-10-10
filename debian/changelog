@@ -1,3 +1,9 @@
+rpi-chromium-mods (20161010) jessie; urgency=medium
+
+  * Adobe Flash Player binary added
+
+ -- Simon Long <simon@raspberrypiorg>  Mon, 10 Oct 2016 12:25:27 +0100
+
 rpi-chromium-mods (0.1-1) unstable; urgency=low
 
   * First release of flags and modifiers for default Chromium install

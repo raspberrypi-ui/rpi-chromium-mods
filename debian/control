@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: rpi-chromium-mods
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, chromium-browser
+Depends: debconf, ${shlibs:Depends}, ${misc:Depends}, chromium-browser
 Replaces: chromium-browser
 Description: Raspberry Pi-specific mods to Chromium
  Package contains Raspberry Pi-specific modifications to the
