@@ -1,5 +1,21 @@
 #!/usr/bin/make -f
 
+DEB_TARGET_ARCH ?= $(shell dpkg-architecture -qDEB_TARGET_ARCH)
+
+override_dh_install:
+ifeq ($(DEB_TARGET_ARCH),armhf)
+	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium-browser/
+	cp -ax master_preferences debian/rpi-chromium-mods/usr/lib/chromium-browser/
+	cp -ax libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium-browser/
+	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium-browser/
+	mkdir -p debian/rpi-chromium-mods/etc/chromium-browser/customizations/
+	cp -ax 00-rpi-vars debian/rpi-chromium-mods/etc/chromium-browser/customizations/
+else
+	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax master_preferences.noflash debian/rpi-chromium-mods/usr/lib/chromium/master_preferences
+endif
+	dh_install
+
 %:
 	dh $@
 

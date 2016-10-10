@@ -2,6 +2,8 @@
 
 set -e
 
-update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 90
+if [ -e /usr/bin/chromium-browser ] ; then
+	update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 90
+fi
 
 #DEBHELPER#
