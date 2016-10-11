@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ARCH=$(dpkg --print-architecture)
+
+if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
+	if [ "$ARCH" = "i386" ] ; then
+		dpkg-divert --package rpi-chromium-mods --rename --remove /usr/lib/chromium/master_preferences
+	fi
+fi
+
+#DEBHELPER#

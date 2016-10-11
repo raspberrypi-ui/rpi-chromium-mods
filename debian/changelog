@@ -1,3 +1,9 @@
+rpi-chromium-mods (20161011) jessie; urgency=medium
+
+  * Alternate slimline install for master_preferences only included
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 11 Oct 2016 15:34:15 +0100
+
 rpi-chromium-mods (20161010) jessie; urgency=medium
 
   * Adobe Flash Player binary added
