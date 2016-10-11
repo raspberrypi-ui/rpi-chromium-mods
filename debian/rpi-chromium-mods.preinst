@@ -1,9 +1,0 @@
-#!/bin/sh
-
-ARCH=$(dpkg --print-architecture)
-
-if [ "$ARCH" = "i386" ] ; then
-	dpkg-divert --package rpi-chromium-mods --divert /usr/lib/chromium/master_preferences.old --rename /usr/lib/chromium/master_preferences
-fi
-
-#DEBHELPER#
