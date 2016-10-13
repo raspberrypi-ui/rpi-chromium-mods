@@ -1,3 +1,9 @@
+rpi-chromium-mods (20161012) jessie; urgency=medium
+
+  * Alternatives set correctly for standard Debian install
+
+ -- Simon Long <simon@raspberrypi.org>  Thu, 13 Oct 2016 13:23:42 +0100
+
 rpi-chromium-mods (20161011) jessie; urgency=medium
 
   * Alternate slimline install for master_preferences only included
