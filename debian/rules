@@ -16,6 +16,9 @@ else
 endif
 	dh_install
 
+override_dh_strip:
+	dh_strip --exclude=pepflash
+
 %:
 	dh $@
 
