@@ -20,12 +20,18 @@ else
 	cp -ax i386/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/README debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax i386/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium/
 endif
 	dh_install
 
 override_dh_strip:
 	dh_strip --exclude=pepflash
+	
+override_dh_shlibdeps:
+ifeq ($(DEB_TARGET_ARCH),armhf)
+	dh_shlibdeps
+endif
 
 %:
 	dh $@

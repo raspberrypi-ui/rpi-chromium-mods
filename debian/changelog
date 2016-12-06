@@ -1,3 +1,9 @@
+rpi-chromium-mods (20161206) jessie; urgency=medium
+
+  * Version 24.0.0.174 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 06 Dec 2016 17:59:25 +0000
+
 rpi-chromium-mods (20161027) jessie; urgency=medium
 
   * Flash included in standard Debian version
