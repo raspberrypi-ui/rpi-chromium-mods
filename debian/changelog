@@ -1,3 +1,10 @@
+rpi-chromium-mods (20170111) jessie; urgency=medium
+
+  * Version 24.0.0.194 of Flash player included
+  * Updated preferences for Chromium 55
+
+ -- Simon Long <simon@raspberrypi.org>  Wed, 11 Jan 2017 12:43:45 +0000
+
 rpi-chromium-mods (20161212) jessie; urgency=medium
 
   * Version 24.0.0.186 of Flash player included

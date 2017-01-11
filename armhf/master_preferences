@@ -105,7 +105,7 @@
 	},
 	"profile":{
 	    "default_content_setting_values":{
-	        "plugins":2
+	        "plugins":0
 	    }
 	},
 	"first_run_tabs": [
