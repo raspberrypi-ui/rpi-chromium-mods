@@ -1,6 +1,6 @@
 Adobe Systems Incorporated
 Flash Player for Linux
-Version 25.0.0.148
+25.0.0.171
 
 Adobe recommends that all users upgrade to the latest version of Adobe Flash 
 Player for the most recent features, bug fixes, and security fixes.  
@@ -28,44 +28,23 @@ Documentation: http://www.adobe.com/go/flashplayerhelp.
 
 Installation instructions
 -------------------------
-
 Installing using the plugin tar.gz:
-	o Unpack the plugin tar.gz and copy the files to the appropriate location.  
-	o Save the plugin tar.gz locally and note the location the file was saved to.
-	o Launch terminal and change directories to the location the file was saved to.
-	o Unpack the tar.gz file.  Once unpacked you will see the following:
-		+ libflashplayer.so
-		+ /usr
-	o Identify the location of the browser plugins directory, based on your Linux distribution and Firefox version
-	o Copy libflashplayer.so to the appropriate browser plugins directory.  At the prompt type:
-		+ cp libflashlayer.so <BrowserPluginsLocation>
-	o Copy the Flash Player Local Settings configurations files to the /usr directory.  At the prompt type:
-		+ sudo cp -r usr/* /usr
+	o Unpack the plugin tar.gz and copy all the files to /usr/lib/adobe-flashplugin/ 
 
 Installing the plugin using RPM:
-   o As root, enter in terminal:
-          + # rpm -Uvh <rpm_package_file>
-          + Click Enter key and follow prompts
-
-Installing the standalone player:
-   o Unpack the tar.gz file
-   o To execute the standalone player,
-          + Double-click, or 
-          + Enter in terminal: ./flashplayer
-
+	o As root, enter in terminal:
+		+ # rpm -Uvh <rpm_package_file>
+		+ Click Enter key and follow prompts
 
 Uninstallation instructions
 ---------------------------
-
-Manual uninstallation (for users who installed the plugin via Install script):
-   o Delete libflashplayer.so binary and flashplayer.xpt file in 
-   directory /home/<user>/.mozilla/plugins/
+Manual uninstallation (for users who installed from plugin tar.gz):
+	o Delete all the files in directory /usr/lib/adobe-flashplugin/
 
 RPM uninstallation:
-   o As root, enter in terminal:
-          + # rpm -e flash-plugin
-          + Click Enter key and follow prompts
-
+	o As root, enter in terminal:
+		  + # rpm -e <rpm_package_name>
+		  + Click Enter key and follow prompts
 
 Technical Issues and Reporting Bugs
 -----------------------------------
