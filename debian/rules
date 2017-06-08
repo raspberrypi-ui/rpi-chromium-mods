@@ -19,7 +19,7 @@ else
 	cp -ax i386/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
-	cp -ax i386/README debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax i386/readme.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium/
 endif
