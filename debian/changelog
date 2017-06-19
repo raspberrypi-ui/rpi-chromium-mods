@@ -1,3 +1,9 @@
+rpi-chromium-mods (20170619) jessie; urgency=medium
+
+  * Version 26.0.0.132 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Mon, 19 Jun 2017 15:28:19 +0100
+
 rpi-chromium-mods (20170614) jessie; urgency=medium
 
   * Version 26.0.0.126 of Flash player included
