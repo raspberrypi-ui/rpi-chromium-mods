@@ -1,3 +1,10 @@
+rpi-chromium-mods (20170808) stretch; urgency=medium
+
+  * Version 26.0.0.151 of Flash player included
+  * GPU compositing disabled for ARM
+
+ -- Simon Long <simon@raspberrypi.org>  Thu, 03 Aug 2017 08:01:20 +0100
+
 rpi-chromium-mods (20170714) jessie; urgency=medium
 
   * Version 26.0.0.137 of Flash player included
