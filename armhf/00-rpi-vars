@@ -1,2 +1,2 @@
-CHROMIUM_FLAGS="--disable-quic --enable-fast-unload --enable-tcp-fast-open --disable-gpu-compositing"
+CHROMIUM_FLAGS="--disable-quic --enable-fast-unload --enable-tcp-fast-open --disable-gpu-compositing --allow-outdated-plugins"
 
