@@ -1,3 +1,9 @@
+rpi-chromium-mods (20170809) stretch; urgency=medium
+
+  * Add Flash player version flag to fix Chromium warning
+
+ -- Simon Long <simon@raspberrypi.org>  Fri, 04 Aug 2017 08:51:27 +0100
+
 rpi-chromium-mods (20170808) stretch; urgency=medium
 
   * Version 26.0.0.151 of Flash player included
