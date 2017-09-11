@@ -1,3 +1,10 @@
+rpi-chromium-mods (20170911) stretch; urgency=medium
+
+  * Version 27.0.0.130 of Flash player included
+  * Location of i386 master_preferences file updated for Chromium 60
+
+ -- Simon Long <simon@raspberrypi.org>  Mon, 11 Sep 2017 12:01:37 +0100
+
 rpi-chromium-mods (20170809) stretch; urgency=medium
 
   * Add Flash player version flag to fix Chromium warning
