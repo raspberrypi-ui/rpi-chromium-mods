@@ -13,8 +13,8 @@ ifeq ($(DEB_TARGET_ARCH),armhf)
 else
 	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
 	cp -ax i386/flash-vars debian/rpi-chromium-mods/etc/chromium.d/
-	mkdir -p debian/rpi-chromium-mods/etc/chromium/
-	cp -ax i386/master_preferences debian/rpi-chromium-mods/etc/chromium/master_preferences
+	mkdir -p debian/rpi-chromium-mods/usr/share/chromium/
+	cp -ax i386/master_preferences debian/rpi-chromium-mods/usr/share/chromium/master_preferences
 	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
