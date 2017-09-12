@@ -16,11 +16,19 @@ else
 	mkdir -p debian/rpi-chromium-mods/usr/share/chromium/
 	cp -ax i386/master_preferences debian/rpi-chromium-mods/usr/share/chromium/master_preferences
 	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium/
+ifeq ($(DEB_TARGET_ARCH),i386)
 	cp -ax i386/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/readme.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
+else
+	cp -ax amd64/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax amd64/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax amd64/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax amd64/readme.txt debian/rpi-chromium-mods/usr/lib/chromium/
+	cp -ax amd64/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
+endif
 	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium/
 endif
 	dh_install
