@@ -1,11 +1,12 @@
 #!/bin/sh
 
-DEB_TARGET_ARCH=$(shell dpkg-architecture -qDEB_TARGET_ARCH)
+ARCH=$(dpkg --print-architecture)
 
-if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
-	if ! [ "$DEB_TARGET_ARCH" =  "armhf" ] ; then
+if [ "$ARCH" !=  "armhf" ] ; then
+	if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
 		dpkg-divert --package rpi-chromium-mods --rename --remove /usr/share/chromium/master_preferences
 	fi
+	dpkg-maintscript-helper rm_conffile /etc/chromium/master_preferences 20170809 -- "$@"
 fi
 
 #DEBHELPER#
