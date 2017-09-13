@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DEB_TARGET_ARCH=$(shell dpkg-architecture -qDEB_TARGET_ARCH)
+
+if ! [ "$DEB_TARGET_ARCH" =  "armhf" ] ; then
+	dpkg-divert --package rpi-chromium-mods --divert /usr/share/chromium/master_preferences.old --rename /usr/share/chromium/master_preferences
+fi
+
+#DEBHELPER#

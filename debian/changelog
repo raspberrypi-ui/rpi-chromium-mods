@@ -1,3 +1,9 @@
+rpi-chromium-mods (20170913) stretch; urgency=medium
+
+  * Various install tweaks for x86/x64 versions
+
+ -- Simon Long <simon@raspberrypi.org>  Wed, 13 Sep 2017 07:52:28 +0100
+
 rpi-chromium-mods (20170911) stretch; urgency=medium
 
   * Version 27.0.0.130 of Flash player included
