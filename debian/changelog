@@ -1,3 +1,9 @@
+rpi-chromium-mods (20171107) stretch; urgency=medium
+
+  * Correct Flash version number in command line vars
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 07 Nov 2017 15:04:25 +0000
+
 rpi-chromium-mods (20171026) stretch; urgency=medium
 
   * Version 27.0.0.183 of Flash player included
