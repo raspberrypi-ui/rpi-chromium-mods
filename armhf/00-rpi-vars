@@ -1,2 +1,2 @@
-CHROMIUM_FLAGS="--disable-quic --enable-fast-unload --enable-tcp-fast-open --disable-gpu-compositing --ppapi-flash-version=29.0.0.113"
+CHROMIUM_FLAGS="--disable-quic --enable-fast-unload --enable-tcp-fast-open --disable-gpu-compositing --ppapi-flash-version=29.0.0.140"
 
