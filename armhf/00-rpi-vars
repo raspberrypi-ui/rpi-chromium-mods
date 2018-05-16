@@ -1,2 +1,2 @@
-CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --disable-quic --enable-fast-unload --enable-tcp-fast-open --disable-gpu-compositing --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-version="
+CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --disable-quic --enable-tcp-fast-open --disable-gpu-compositing --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-version="
 
