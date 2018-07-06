@@ -1,3 +1,9 @@
+rpi-chromium-mods (20180706) stretch; urgency=medium
+
+  * Version 30.0.0.134 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Fri, 06 Jul 2018 07:35:05 +0100
+
 rpi-chromium-mods (20180626) stretch; urgency=medium
 
   * Remove PepperFlash command-line args when on Pi 0 or 1
