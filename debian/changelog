@@ -1,3 +1,9 @@
+rpi-chromium-mods (20181204) stretch; urgency=medium
+
+  * Version 32.0.0.101 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 04 Dec 2018 14:46:34 +0000
+
 rpi-chromium-mods (20181120) stretch; urgency=medium
 
   * Version 31.0.0.153 of Flash player included
