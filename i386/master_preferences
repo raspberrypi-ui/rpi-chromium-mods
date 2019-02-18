@@ -29,7 +29,8 @@
 		}
 	},
 	"browser": {
-		"custom_chrome_frame":false
+		"custom_chrome_frame":false,
+		"default_browser_infobar_last_declined":"1"
 	},
 	"default_search_provider": {
 		"synced_guid":"9A111FB4-A8D3-4FDD-84CE-76178E50246B"
