@@ -1,3 +1,9 @@
+rpi-chromium-mods (20190218) stretch; urgency=medium
+
+  * Remove spurious default browser warning
+
+ -- Simon Long <simon@raspberrypi.org>  Mon, 18 Feb 2019 13:11:27 +0000
+
 rpi-chromium-mods (20190212) stretch; urgency=medium
 
   * Version 32.0.0.142 of Flash player included
