@@ -1,3 +1,9 @@
+rpi-chromium-mods (20190319) stretch; urgency=medium
+
+  * Correct version number in i386 version
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 19 Mar 2019 09:47:33 +0000
+
 rpi-chromium-mods (20190318) stretch; urgency=medium
 
   * Add manifest version to master_preferences extension preloads
