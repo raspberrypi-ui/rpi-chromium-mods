@@ -1,3 +1,9 @@
+rpi-chromium-mods (20190514) stretch; urgency=medium
+
+  * Version 32.0.0.192 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 14 May 2019 07:29:23 +0100
+
 rpi-chromium-mods (20190409) stretch; urgency=medium
 
   * Version 32.0.0.171 of Flash player included; disable-gpu-compositing flag removed
