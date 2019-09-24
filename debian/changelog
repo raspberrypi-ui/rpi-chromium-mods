@@ -1,3 +1,9 @@
+rpi-chromium-mods (20190924) buster; urgency=medium
+
+  * Move x86 master_preferences file install location for Chromium 76
+
+ -- Simon Long <simon@raspberrypi.org>  Tue, 24 Sep 2019 09:51:31 +0100
+
 rpi-chromium-mods (20190912) buster; urgency=medium
 
   * Version 32.0.0.255 of Flash player included
