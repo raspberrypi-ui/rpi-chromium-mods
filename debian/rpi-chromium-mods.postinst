@@ -23,6 +23,10 @@ case "$1" in
           fi
         fi
       done
+      if [ "$ARCH" !=  "armhf" ] ; then
+		dpkg-divert --add --package rpi-chromium-mods --rename --divert /etc/chromium/master_preferences.distrib /etc/chromium/master_preferences
+		[ \! -e /etc/chromium/master_preferences -o -L /etc/chromium/master_preferences ] && ln -sf /etc/site/master_preferences /etc/chromium/master_preferences
+      fi
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
@@ -33,10 +37,6 @@ case "$1" in
       exit 1
   ;;
 esac
-
-if [ "$ARCH" != "armhf" ] ; then
-  dpkg-maintscript-helper rm_conffile /etc/chromium/master_preferences 20170809 -- "$@"
-fi
 
 #DEBHELPER#
 
