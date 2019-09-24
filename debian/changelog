@@ -1,6 +1,6 @@
 rpi-chromium-mods (20190925) buster; urgency=medium
 
-]  * Add diverts for original master_preferences file
+  * Add diverts for original master_preferences file
 
  -- Simon Long <simon@raspberrypi.org>  Tue, 24 Sep 2019 13:18:00 +0100
 
