@@ -1,3 +1,9 @@
+rpi-chromium-mods (20191011) buster; urgency=medium
+
+  * Version 32.0.0.270 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.org>  Fri, 11 Oct 2019 11:43:37 +0100
+
 rpi-chromium-mods (20190925) buster; urgency=medium
 
   * Add diverts for original master_preferences file
