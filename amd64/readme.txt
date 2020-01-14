@@ -1,6 +1,6 @@
 Adobe
 Flash Player for Linux
-32.0.0.303
+32.0.0.314
 
 Adobe recommends that all users upgrade to the latest version of Adobe Flash 
 Player for the most recent features, bug fixes, and security fixes.  
@@ -69,7 +69,7 @@ individually respond to each report.
 Legal
 -----
 
-Adobe(R) Flash(R) Player. Copyright (C) 1996 - 2019 Adobe 
+Adobe(R) Flash(R) Player. Copyright (C) 1996 - 2020 Adobe 
 All Rights Reserved. Adobe and Flash  are either trademarks or 
 registered trademarks in the United States and/or other countries.
 
