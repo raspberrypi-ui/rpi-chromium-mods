@@ -1,3 +1,9 @@
+rpi-chromium-mods (20200124) buster; urgency=medium
+
+  * Change first run default tab address to a valid page
+
+ -- Simon Long <simon@raspberrypi.org>  Fri, 24 Jan 2020 14:56:31 +0000
+
 rpi-chromium-mods (20200114) buster; urgency=medium
 
   * Version 32.0.0.314 of Flash player included
