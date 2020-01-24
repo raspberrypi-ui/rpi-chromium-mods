@@ -71,7 +71,7 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["http://welcome_page","file:///usr/lib/chromium/Flash.htm"]
+	"first_run_tabs":["chrome://newtab/","file:///usr/lib/chromium/Flash.htm"]
 }
 
 
