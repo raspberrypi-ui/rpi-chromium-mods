@@ -39,6 +39,25 @@
 				},
 				"path":"aleakchihdccplidncghkekgioiakgal\\0.0",
 				"state":1
+			},
+			"dpfbddcgbimoafpgmbbjiliegkfcjkmn":{
+				"location":1,
+				"manifest":{
+					"manifest_version":2,
+					"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN6lLYZjTRv2rNmYuimBuo5g6Onryv5t2pEK4aSRUvg1lb8bt2XgsEGwKCSE0P1pfZM0UaKfEKGDz9l8Q1eBXLjgEwo0e8OAAdeK37BkoMI1sNXLVHeHT4wDibjUxTk6giFLCCESyQaB2fxNnfzTT0mSPRElnVJI8R3T48FbdbBwIDAQAB",
+					"name":"Parental Control - Adult Content Blocker",
+					"permissions":["tabs","notifications","alarms","cookies","background","unlimitedStorage","\u003Call_urls>"],
+					"update_url":"https://clients2.google.com/service/update2/crx",
+					"version":"0.0"
+				},
+				"granted_permissions":
+				{
+					"api":["alarms","background","cookies","notifications","tabs","unlimitedStorage"],
+					"explicit_host":["\u003Call_urls>","chrome://favicon/*"],
+					"scriptable_host":["http://*/*","https://*/*"]
+				},
+				"path":"dpfbddcgbimoafpgmbbjiliegkfcjkmn\\0.0",
+				"state":1
 			}
 		},
 		"theme":{
