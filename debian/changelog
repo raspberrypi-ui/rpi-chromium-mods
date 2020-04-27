@@ -1,3 +1,9 @@
+rpi-chromium-mods (20200423) buster; urgency=medium
+
+  * Include marketing form as first tab
+
+ -- Simon Long <simon@raspberrypi.com>  Thu, 16 Apr 2020 16:29:36 +0100
+
 rpi-chromium-mods (20200407) buster; urgency=medium
 
   * Version 32.0.0.363 of Flash player included
