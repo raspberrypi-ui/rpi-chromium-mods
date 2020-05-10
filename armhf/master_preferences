@@ -89,7 +89,7 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["chrome://newtab/","file:///usr/lib/chromium-browser/Flash.htm"]
+	"first_run_tabs":["https://docs.google.com/forms/d/e/1FAIpQLSfskV8kaueq8dPDarcKHLn8mAB4c91zzqyTo3E00tVhSk1Mjw/viewform?usp=pp_url&entry.104884008=UNIDENTIFIED","file:///usr/lib/chromium-browser/Flash.htm"]
 }
 
 

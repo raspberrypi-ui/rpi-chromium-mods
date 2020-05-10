@@ -1,3 +1,9 @@
+rpi-chromium-mods (20200510) buster; urgency=medium
+
+  * Version 32.0.0.371 of Flash player included; marketing first-run page added
+
+ -- Simon Long <simon@raspberrypi.com>  Sun, 10 May 2020 16:35:58 +0100
+
 rpi-chromium-mods (20200407) buster; urgency=medium
 
   * Version 32.0.0.363 of Flash player included
