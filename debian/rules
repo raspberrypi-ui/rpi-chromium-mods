@@ -11,27 +11,39 @@ ifeq ($(DEB_TARGET_ARCH),armhf)
 	cp -ax armhf/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium-browser/
 	cp -ax armhf/flash_manifest.json debian/rpi-chromium-mods/usr/lib/chromium-browser/
 	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium-browser/
-else
+endif
+ifeq ($(DEB_TARGET_ARCH),arm64)
+	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
+	cp -ax arm64/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
+	mkdir -p debian/rpi-chromium-mods/etc/site/
+	cp -ax arm64/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
+endif
+ifeq ($(DEB_TARGET_ARCH),i386)
 	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
 	cp -ax i386/flash-vars debian/rpi-chromium-mods/etc/chromium.d/
 	mkdir -p debian/rpi-chromium-mods/etc/site/
 	cp -ax i386/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
 	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium/
-ifeq ($(DEB_TARGET_ARCH),i386)
 	cp -ax i386/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/readme.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax i386/manifest.json debian/rpi-chromium-mods/usr/lib/chromium/
-else
+	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium/
+endif
+ifeq ($(DEB_TARGET_ARCH),amd64)
+	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
+	cp -ax i386/flash-vars debian/rpi-chromium-mods/etc/chromium.d/
+	mkdir -p debian/rpi-chromium-mods/etc/site/
+	cp -ax i386/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
+	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/libpepflashplayer.so debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/LGPL.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/notice.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/readme.txt debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/license.pdf debian/rpi-chromium-mods/usr/lib/chromium/
 	cp -ax amd64/manifest.json debian/rpi-chromium-mods/usr/lib/chromium/
-endif
 	cp -ax Flash.htm debian/rpi-chromium-mods/usr/lib/chromium/
 endif
 	dh_install
