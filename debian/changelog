@@ -1,3 +1,9 @@
+rpi-chromium-mods (20200602) buster; urgency=medium
+
+  * Add arm64 build
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 02 Jun 2020 16:57:16 +0100
+
 rpi-chromium-mods (20200510) buster; urgency=medium
 
   * Version 32.0.0.371 of Flash player included; marketing first-run page added
