@@ -89,10 +89,10 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["https://docs.google.com/forms/d/e/1FAIpQLSfskV8kaueq8dPDarcKHLn8mAB4c91zzqyTo3E00tVhSk1Mjw/viewform?usp=pp_url&entry.104884008=UNIDENTIFIED","file:///usr/lib/chromium-browser/Flash.htm"],
+	"first_run_tabs":["https://rpf.io/pidropsurvey1?serial=UNIDENTIFIED","https://rpf.io/pidrophome?serial=UNIDENTIFIED"],
 	"session":{
 		"restore_on_startup":4,
-		"startup_urls":["http://www.google.com/"]
+		"startup_urls":["https://rpf.io/pidrophome?serial=UNIDENTIFIED"]
 	}
 }
 
