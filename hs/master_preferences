@@ -89,10 +89,10 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["https://rpf.io/pidropsurvey1?serial=UNIDENTIFIED","https://rpf.io/pidrophome?serial=UNIDENTIFIED"],
+	"first_run_tabs":["https://raspberrypi.org/stay-connected-survey?id=UNIDENTIFIED","https://raspberrypi.org/stay-connected?id=UNIDENTIFIED"],
 	"session":{
 		"restore_on_startup":4,
-		"startup_urls":["https://rpf.io/pidrophome?serial=UNIDENTIFIED"]
+		"startup_urls":["https://raspberrypi.org/stay-connected?id=UNIDENTIFIED"]
 	}
 }
 
