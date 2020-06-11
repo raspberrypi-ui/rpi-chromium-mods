@@ -1,4 +1,4 @@
-rpi-chromium-mods (20200611) UNRELEASED; urgency=medium
+rpi-chromium-mods (20200611) buster; urgency=medium
 
   * Startup URLs updated
 
