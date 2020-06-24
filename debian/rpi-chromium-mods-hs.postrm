@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" ]; then
+  dpkg-divert --package rpi-chromium-mods-hs --rename --remove /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop
+fi
+
+#DEBHELPER#
+
