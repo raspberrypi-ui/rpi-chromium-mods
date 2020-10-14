@@ -1,6 +1,6 @@
 Adobe
 Flash Player for Linux
-32.0.0.433
+32.0.0.445
 
 Adobe recommends that all users upgrade to the latest version of Adobe Flash 
 Player for the most recent features, bug fixes, and security fixes.  
