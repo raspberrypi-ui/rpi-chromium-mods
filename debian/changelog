@@ -1,3 +1,9 @@
+rpi-chromium-mods (20201113) buster; urgency=medium
+
+  * Version 32.0.0.453 of Flash player included
+
+ -- Simon Long <simon@raspberrypi.com>  Fri, 13 Nov 2020 09:04:01 +0000
+
 rpi-chromium-mods (20201014) buster; urgency=medium
 
   * Version 32.0.0.445 of Flash player included
