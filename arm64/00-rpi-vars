@@ -1,1 +1,0 @@
-CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --force-renderer-accessibility --disable-quic --enable-tcp-fast-open"

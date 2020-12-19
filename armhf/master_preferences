@@ -89,7 +89,7 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["https://welcome.raspberrypi.org/raspberry-pi-os?id=UNIDENTIFIED","file:///usr/lib/chromium-browser/Flash.htm"]
+	"first_run_tabs":["https://welcome.raspberrypi.org/raspberry-pi-os?id=UNIDENTIFIED"]
 }
 
 

@@ -1,3 +1,9 @@
+rpi-chromium-mods (20201231) buster; urgency=medium
+
+  * Remove Flash player
+
+ -- Simon Long <simon@raspberrypi.com>  Sat, 19 Dec 2020 09:26:51 +0000
+
 rpi-chromium-mods (20201213) buster; urgency=medium
 
   * Add flag to enable accessibility
