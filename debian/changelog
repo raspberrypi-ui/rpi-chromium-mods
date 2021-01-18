@@ -1,3 +1,9 @@
+rpi-chromium-mods (20210118) buster; urgency=medium
+
+  * Remove custom user agent from homeschool version
+
+ -- Simon Long <simon@raspberrypi.com>  Mon, 18 Jan 2021 20:08:23 +0000
+
 rpi-chromium-mods (20201231) buster; urgency=medium
 
   * Remove Flash player

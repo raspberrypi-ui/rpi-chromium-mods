@@ -1,4 +1,2 @@
 armhf/00-rpi-vars etc/chromium-browser/customizations/
 hs/master_preferences usr/lib/chromium-browser/
-hs/chromium-browser.desktop usr/share/raspi-ui-overrides/applications/
-hs/lxde-x-www-browser.desktop usr/share/raspi-ui-overrides/applications/

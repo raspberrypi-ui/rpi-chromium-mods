@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-dpkg-divert --package rpi-chromium-mods-hs --divert /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.olddesktop --rename /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop
-#DEBHELPER#
