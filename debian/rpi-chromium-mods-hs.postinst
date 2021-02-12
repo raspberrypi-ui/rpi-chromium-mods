@@ -6,6 +6,9 @@ ARCH=$(dpkg --print-architecture)
 
 case "$1" in
   configure)
+      if [ -e /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.olddesktop ] && [ ! -e /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop ] ; then
+        dpkg-divert --package rpi-chromium-mods-hs --rename --remove /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop
+      fi
       if [ -e /usr/bin/chromium-browser ] ; then
 	    update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 90
       fi
