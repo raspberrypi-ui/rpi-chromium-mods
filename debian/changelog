@@ -1,3 +1,9 @@
+rpi-chromium-mods (20210212) buster; urgency=medium
+
+  * Add override desktop file for homeschool version to fix shortcuts
+
+ -- Simon Long <simon@raspberrypi.com>  Fri, 12 Feb 2021 10:27:13 +0000
+
 rpi-chromium-mods (20210118) buster; urgency=medium
 
   * Remove custom user agent from homeschool version
