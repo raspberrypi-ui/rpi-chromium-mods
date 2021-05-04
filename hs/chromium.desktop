@@ -176,7 +176,7 @@ Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;
 StartupNotify=true
 Actions=NewWindow;Incognito;TempProfile;
-X-AppInstall-Package=chromium
+X-AppInstall-Package=chromium-browser
 
 [Desktop Action NewWindow]
 Name=Open a New Window
