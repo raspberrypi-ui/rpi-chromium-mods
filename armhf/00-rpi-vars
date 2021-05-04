@@ -1,1 +1,2 @@
-CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --force-renderer-accessibility --disable-quic --enable-tcp-fast-open"
+export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --force-renderer-accessibility --enable-remote-extensions"
+

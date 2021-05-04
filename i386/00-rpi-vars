@@ -1,2 +1,2 @@
-export CHROMIUM_FLAGS="--force-renderer-accessibility --enable-remote-extensions"
+export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --force-renderer-accessibility --enable-remote-extensions"
 

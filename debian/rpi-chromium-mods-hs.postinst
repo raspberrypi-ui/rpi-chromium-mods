@@ -2,17 +2,11 @@
 
 set -e
 
-ARCH=$(dpkg --print-architecture)
-
 case "$1" in
   configure)
       if [ -e /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.olddesktop ] && [ ! -e /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop ] ; then
         dpkg-divert --package rpi-chromium-mods-hs --rename --remove /usr/share/raspi-ui-overrides/applications/lxde-x-www-browser.desktop
       fi
-      if [ -e /usr/bin/chromium-browser ] ; then
-	    update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium-browser 90
-      fi
-
       if [ -e /usr/bin/chromium ] ; then
 	    update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chromium 60
       fi
@@ -26,6 +20,8 @@ case "$1" in
           fi
         fi
       done
+      dpkg-divert --add --package rpi-chromium-mods --rename --divert /etc/chromium/master_preferences.distrib /etc/chromium/master_preferences
+      [ \! -e /etc/chromium/master_preferences -o -L /etc/chromium/master_preferences ] && ln -sf /etc/site/master_preferences /etc/chromium/master_preferences
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)

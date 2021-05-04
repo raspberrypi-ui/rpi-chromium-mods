@@ -4,10 +4,10 @@ DEB_TARGET_ARCH ?= $(shell dpkg-architecture -qDEB_TARGET_ARCH)
 
 override_dh_install:
 ifeq ($(DEB_TARGET_ARCH),armhf)
-	mkdir -p debian/rpi-chromium-mods/etc/chromium-browser/customizations/
-	cp -ax armhf/00-rpi-vars debian/rpi-chromium-mods/etc/chromium-browser/customizations/
-	mkdir -p debian/rpi-chromium-mods/usr/lib/chromium-browser/
-	cp -ax armhf/master_preferences debian/rpi-chromium-mods/usr/lib/chromium-browser/
+	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
+	cp -ax armhf/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
+	mkdir -p debian/rpi-chromium-mods/etc/site/
+	cp -ax armhf/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
 endif
 ifeq ($(DEB_TARGET_ARCH),arm64)
 	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/

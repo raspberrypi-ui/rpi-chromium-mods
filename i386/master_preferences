@@ -71,7 +71,7 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["chrome://newtab/"]
+	"first_run_tabs":["https://welcome.raspberrypi.org/"]
 }
 
 
