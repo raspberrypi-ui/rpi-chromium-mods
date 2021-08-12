@@ -1,3 +1,9 @@
+rpi-chromium-mods (20210812) bullseye; urgency=medium
+
+  * Tidy install for different architectures
+
+ -- Simon Long <simon@raspberrypi.com>  Thu, 12 Aug 2021 10:18:42 +0100
+
 rpi-chromium-mods (20210504) bullseye; urgency=medium
 
   * Harmonise ARM and x86 versions

@@ -20,8 +20,6 @@ case "$1" in
           fi
         fi
       done
-      dpkg-divert --add --package rpi-chromium-mods --rename --divert /etc/chromium/master_preferences.distrib /etc/chromium/master_preferences
-      [ \! -e /etc/chromium/master_preferences -o -L /etc/chromium/master_preferences ] && ln -sf /etc/site/master_preferences /etc/chromium/master_preferences
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)

@@ -1,34 +1,5 @@
 #!/usr/bin/make -f
 
-DEB_TARGET_ARCH ?= $(shell dpkg-architecture -qDEB_TARGET_ARCH)
-
-override_dh_install:
-ifeq ($(DEB_TARGET_ARCH),armhf)
-	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
-	cp -ax armhf/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
-	mkdir -p debian/rpi-chromium-mods/etc/site/
-	cp -ax armhf/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
-endif
-ifeq ($(DEB_TARGET_ARCH),arm64)
-	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
-	cp -ax armhf/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
-	mkdir -p debian/rpi-chromium-mods/etc/site/
-	cp -ax armhf/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
-endif
-ifeq ($(DEB_TARGET_ARCH),i386)
-	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
-	cp -ax i386/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
-	mkdir -p debian/rpi-chromium-mods/etc/site/
-	cp -ax i386/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
-endif
-ifeq ($(DEB_TARGET_ARCH),amd64)
-	mkdir -p debian/rpi-chromium-mods/etc/chromium.d/
-	cp -ax i386/00-rpi-vars debian/rpi-chromium-mods/etc/chromium.d/
-	mkdir -p debian/rpi-chromium-mods/etc/site/
-	cp -ax i386/master_preferences debian/rpi-chromium-mods/etc/site/master_preferences
-endif
-	dh_install
-
 override_dh_shlibdeps:
 ifeq ($(DEB_TARGET_ARCH),armhf)
 	dh_shlibdeps
