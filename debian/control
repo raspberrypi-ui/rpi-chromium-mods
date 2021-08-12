@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Simon Long <simon@raspberrypi.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
+Homepage:
 
 Package: rpi-chromium-mods
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.7.2)
-Depends: debconf, ${shlibs:Depends}, ${misc:Depends}, chromium-browser (>= 65) [armhf], chromium (>= 65) [!armhf], chromium-codecs-ffmpeg-extra [armhf]
+Depends: debconf, ${misc:Depends}, chromium-browser (>= 92), chromium-codecs-ffmpeg-extra [armhf]
 Conflicts: rpi-chromium-mods-hs
 Description: Raspberry Pi-specific mods to Chromium
  Package contains Raspberry Pi-specific modifications to the
@@ -19,7 +19,7 @@ Description: Raspberry Pi-specific mods to Chromium
 Package: rpi-chromium-mods-hs
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.7.2)
-Depends: debconf, ${shlibs:Depends}, ${misc:Depends}, chromium-browser (>= 65) [armhf], chromium (>= 65) [!armhf], chromium-codecs-ffmpeg-extra [armhf]
+Depends: debconf, ${misc:Depends}, chromium-browser (>= 92), chromium-codecs-ffmpeg-extra [armhf]
 Conflicts: rpi-chromium-mods
 Description: Raspberry Pi-specific mods to Chromium for home-school programme
  Package contains Raspberry Pi-specific modifications to the
