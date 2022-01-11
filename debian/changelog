@@ -1,3 +1,9 @@
+rpi-chromium-mods (20220111) bullseye; urgency=medium
+
+  * Fix homeschool modifications for bullseye
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 11 Jan 2022 11:12:57 +0000
+
 rpi-chromium-mods (20210812) bullseye; urgency=medium
 
   * Tidy install for different architectures
