@@ -1,3 +1,9 @@
+rpi-chromium-mods (20220527) bullseye; urgency=medium
+
+  * Make chromium dependency architecture-specific
+
+ -- Simon Long <simon@raspberrypi.com>  Fri, 27 May 2022 09:49:17 +0100
+
 rpi-chromium-mods (20220111) bullseye; urgency=medium
 
   * Fix homeschool modifications for bullseye
