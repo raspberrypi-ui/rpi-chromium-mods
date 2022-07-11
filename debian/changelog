@@ -1,3 +1,9 @@
+rpi-chromium-mods (20220711) bullseye; urgency=medium
+
+  * Fix incorrect use of fi in postrm script
+
+ -- Simon Long <simon@raspberrypi.com>  Mon, 11 Jul 2022 13:09:13 +0100
+
 rpi-chromium-mods (20220527) bullseye; urgency=medium
 
   * Make chromium dependency architecture-specific
