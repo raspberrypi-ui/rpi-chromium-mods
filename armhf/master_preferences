@@ -89,7 +89,7 @@
 	        "plugins":0
 	    }
 	},
-	"first_run_tabs":["https://welcome.raspberrypi.org/raspberry-pi-os?id=UNIDENTIFIED"]
+	"first_run_tabs":["WELCOME_URL"]
 }
 
 

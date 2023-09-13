@@ -1,3 +1,9 @@
+rpi-chromium-mods (20230913) bookworm; urgency=medium
+
+  * Use placeholder for entire welcome URL
+
+ -- Simon Long <simon@raspberrypi.com>  Wed, 13 Sep 2023 10:11:11 +0100
+
 rpi-chromium-mods (20220711) bullseye; urgency=medium
 
   * Fix incorrect use of fi in postrm script
