@@ -1,3 +1,9 @@
+rpi-chromium-mods (20230925) bookworm; urgency=medium
+
+  * No, just use placeholder for serial...
+
+ -- Simon Long <simon@raspberrypi.com>  Mon, 25 Sep 2023 14:55:41 +0100
+
 rpi-chromium-mods (20230913) bookworm; urgency=medium
 
   * Use placeholder for entire welcome URL
