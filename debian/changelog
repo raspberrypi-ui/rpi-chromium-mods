@@ -1,3 +1,9 @@
+rpi-chromium-mods (20240904) bookworm; urgency=medium
+
+  * Update dependencies
+
+ -- Simon Long <simon@raspberrypi.com>  Wed, 04 Sep 2024 12:53:13 +0100
+
 rpi-chromium-mods (20230925) bookworm; urgency=medium
 
   * No, just use placeholder for serial...
