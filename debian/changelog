@@ -1,3 +1,9 @@
+rpi-chromium-mods (20250415) ; urgency=medium
+
+  * Update to use manifest version 3; remove homeschool version
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 15 Apr 2025 18:03:45 +0100
+
 rpi-chromium-mods (20240904) bookworm; urgency=medium
 
   * Update dependencies
