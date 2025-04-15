@@ -15,13 +15,3 @@ Description: Raspberry Pi-specific mods to Chromium
  Package contains Raspberry Pi-specific modifications to the
  default Chromium browser install, including optimized settings
  and command-line flags. Also sets chromium as the default browser.
-
-Package: rpi-chromium-mods-hs
-Architecture: any
-Pre-Depends: dpkg (>= 1.15.7.2)
-Depends: debconf, ${misc:Depends}, chromium (>= 92), chromium-codecs-ffmpeg-extra [armhf]
-Conflicts: rpi-chromium-mods
-Description: Raspberry Pi-specific mods to Chromium for home-school programme
- Package contains Raspberry Pi-specific modifications to the
- default Chromium browser install, including optimized settings
- and command-line flags. Also sets chromium as the default browser.
