@@ -1,3 +1,9 @@
+rpi-chromium-mods (20250506) bookworm; urgency=medium
+
+  * Add new uBlock Origin Lite permissions
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 06 May 2025 09:04:21 +0100
+
 rpi-chromium-mods (20250415) bookworm; urgency=medium
 
   * Update to use manifest version 3; remove homeschool version
