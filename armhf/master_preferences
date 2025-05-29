@@ -91,6 +91,13 @@
 	        "plugins":0
 	    }
 	},
+	"distribution": {
+		"import_bookmarks": false,
+		"import_bookmarks_from_file": "/etc/chromium/bookmarks.html"
+	},
+	"bookmark_bar": {
+		"show_on_all_tabs": true
+	},
 	"first_run_tabs":["https://welcome.raspberrypi.com/raspberry-pi-os?id=UNIDENTIFIED"]
 }
 

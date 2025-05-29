@@ -10,13 +10,13 @@
 					"manifest_version":3,
 					"key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJE6DLdtfHXfeaGDSKdUuCvvb3pYEpH7jsuYMdExgIqmKRux2dknlJAnYkamBMcirGBfwCFjqE++TAkCs8AcrYLOGRRMt8oa7DXuFWzgtQpkwigI1+dnIuYLzERLQx/O02/p//fHdDQfxWKvySnN+VHdINOHsUD6OcoC5I7CXIBSrateRpRGpFxxR6F4nWvK3aq2j3L6A/qRg+pr0QVqL8p1TOJG+vSh234YHnsO9Dsys+VNbT0k0n8enCm/VsOCMjihgHpmftd1bSfSr8s1IwBuFdaLVQKghyDn1PvhFNBkuAXu+J/z0/o5Nio+/bIz406ECI9Qtkr9kqVboFDtzwIDAQAB",
 					"name":"uBlock Origin Lite",
-					"permissions":["activeTab","declarativeNetRequest","scripting","storage"],
+					"permissions":["activeTab","declarativeNetRequest","scripting","storage","tabs","webNavigation"],
 					"update_url":"https://clients2.google.com/service/update2/crx",
 					"version":"0.0"
 				},
 				"granted_permissions":{
-					"api":["activeTab","storage","declarativeNetRequest","scripting"],
-					"explicit_host":[],
+					"api":["activeTab","storage","tabs","webNavigation","declarativeNetRequest","scripting"],
+					"explicit_host":["\u003Call_urls>"],
 					"manifest_permissions":[],
 					"scriptable_host":[]
 				},
@@ -71,6 +71,13 @@
 	    "default_content_setting_values":{
 	        "plugins":0
 	    }
+	},
+	"distribution": {
+		"import_bookmarks": false,
+		"import_bookmarks_from_file": "/etc/chromium/bookmarks.html"
+	},
+	"bookmark_bar": {
+		"show_on_all_tabs": true
 	},
 	"first_run_tabs":["https://welcome.raspberrypi.com/"]
 }

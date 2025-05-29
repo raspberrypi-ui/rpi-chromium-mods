@@ -1,3 +1,9 @@
+rpi-chromium-mods (20250529) trixie; urgency=medium
+
+  * Preinstall bookmarks
+
+ -- Simon Long <simon@raspberrypi.com>  Thu, 29 May 2025 14:05:02 +0100
+
 rpi-chromium-mods (20250506) bookworm; urgency=medium
 
   * Add new uBlock Origin Lite permissions
