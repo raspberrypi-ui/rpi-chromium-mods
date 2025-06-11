@@ -7,7 +7,7 @@ endif
 
 override_dh_installdeb:
 	dh_installdeb
-	sed -i '/master_preferences/d' debian/rpi-chromium-mods/DEBIAN/conffiles
+	sed -i '/initial_preferences/d' debian/rpi-chromium-mods/DEBIAN/conffiles
 
 %:
 	dh $@
