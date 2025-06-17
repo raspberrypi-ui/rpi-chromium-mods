@@ -1,3 +1,9 @@
+rpi-chromium-mods (20250617) trixie; urgency=medium
+
+  * Get rid of ellipsis
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 17 Jun 2025 08:32:27 +0100
+
 rpi-chromium-mods (20250529) trixie; urgency=medium
 
   * Preinstall bookmarks
