@@ -1,3 +1,9 @@
+rpi-chromium-mods (20250730) trixie; urgency=medium
+
+  * As Chromium seems not to be able to decide whether the file is master_preferences or initial_preferences, use both. Grrrr...
+
+ -- Simon Long <simon@raspberrypi.com>  Wed, 30 Jul 2025 11:48:47 +0100
+
 rpi-chromium-mods (20250728) trixie; urgency=medium
 
   * Remove codecs package dependency

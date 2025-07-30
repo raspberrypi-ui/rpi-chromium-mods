@@ -1,3 +1,4 @@
 armhf/00-rpi-vars etc/chromium.d/
 armhf/initial_preferences etc/chromium/
+armhf/master_preferences etc/chromium/
 armhf/bookmarks.html etc/chromium/
