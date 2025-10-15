@@ -1,3 +1,9 @@
+rpi-chromium-mods (20251015) trixie; urgency=medium
+
+  * Remove master_preferences for x86
+
+ -- Simon Long <simon@raspberrypi.com>  Wed, 15 Oct 2025 11:38:07 +0100
+
 rpi-chromium-mods (20250812) trixie; urgency=medium
 
   * Use rplitd.co links instead of rptl.io
