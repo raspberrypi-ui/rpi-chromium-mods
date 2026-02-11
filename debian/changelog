@@ -1,3 +1,9 @@
+rpi-chromium-mods (20260211) trixie; urgency=medium
+
+  * Use new initial_extensions field
+
+ -- Simon Long <simon@raspberrypi.com>  Wed, 11 Feb 2026 07:00:06 +0000
+
 rpi-chromium-mods (20251015) trixie; urgency=medium
 
   * Remove master_preferences for x86
