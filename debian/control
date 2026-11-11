@@ -9,8 +9,7 @@ Homepage: http://raspberrypi.com/
 Package: rpi-chromium-mods
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.7.2)
-Depends: debconf, ${misc:Depends}, chromium (>= 92)
-Conflicts: rpi-chromium-mods-hs
+Depends: debconf, ${misc:Depends}
 Description: Raspberry Pi-specific mods to Chromium
  Package contains Raspberry Pi-specific modifications to the
  default Chromium browser install, including optimized settings
